@@ -3,6 +3,7 @@ public class hello {
         System.out.println("hello");
 
         displayTriangleType(2, 2, 2);
+        System.out.print(getDaysInMonth(2, 2022));
     }
 
     public static boolean isTriangle(int side1, int side2, int side3){
@@ -41,5 +42,27 @@ public class hello {
         else if(isScalene(side1, side2, side3)){
             System.out.println("Scalene");
         }
+    }
+
+    public static int getDaysInMonth(int month, int year){
+        int numDays = 0;
+        switch(month){
+            case 4:
+            case 6:
+            case 9:
+            case 11:
+                numDays = 30;
+                break;
+            case 2:
+                boolean isLeap =
+                    (year % 400 == 0) ||
+                    (year % 100 != 0 && year % 4 == 0);
+                numDays = isLeap ? 29 : 28;
+                break;
+            default:
+                numDays = 31;
+                break;
+        }
+        return numDays;
     }
 }
