@@ -1,4 +1,4 @@
-package interfaceextends;
+package iinterface.eextends;
 
 public class MyCass implements B{
     public void method3(){

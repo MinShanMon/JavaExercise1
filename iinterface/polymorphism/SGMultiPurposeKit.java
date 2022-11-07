@@ -1,4 +1,4 @@
-package InterfaccePolymorphism;
+package iinterface.polymorphism;
 
 public class SGMultiPurposeKit implements ICovid19Kit {
     @Override

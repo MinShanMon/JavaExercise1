@@ -1,4 +1,4 @@
-package interfaceextends;
+package iinterface.eextends;
 
 public interface B extends A {
     void method3();

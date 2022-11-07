@@ -1,4 +1,4 @@
-package InterfaccePolymorphism;
+package iinterface.polymorphism;
 
 public class NUSCovid19Kit implements ICovid19Kit, IDengueKit {
     @Override

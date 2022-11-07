@@ -1,5 +1,5 @@
 
-package InterfaccePolymorphism;
+package iinterface.polymorphism;
 
 public class mains {
     public static void testInterface(){
