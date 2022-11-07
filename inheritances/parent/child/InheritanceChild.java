@@ -22,4 +22,11 @@ public class InheritanceChild extends Inheritance {
         return this.department;
     }
 
+    @Override
+    public double getAnnualSalary(double bonus){
+        double annual = super.getAnnualSalary(bonus);
+        double stockOption = annual * 0.15;
+        return annual + stockOption;
+    }
+
 }

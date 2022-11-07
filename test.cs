@@ -16,4 +16,12 @@ class test{
     public static void ttt(int id){
         this.id = id;
     }
+
+    public static void main(String[] args){
+        test t = new test(1, "oscar");
+        test t1 = new test(1, "oscar");
+        if(t.Equals(t1)){
+            System.Console.WriteLine(  "okay");
+        }
+    }
 }
