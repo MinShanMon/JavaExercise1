@@ -1,3 +1,5 @@
+import java.util.Scanner;
+
 public class hello {
     public static void main(String[] args){
         // System.out.println("hello");
@@ -14,7 +16,7 @@ public class hello {
         //     System.out.println();
         //     k-=1;
         // }
-
+         
         testComparison();
     }
 
@@ -153,7 +155,7 @@ public class hello {
         return max;
     }
 
-    static int getMaxTimes(int arr[], int max) 
+    static int getMaxTimes(int[] arr, int max) 
     {
         int maxTimes = 0;
         for (int number : arr) 
